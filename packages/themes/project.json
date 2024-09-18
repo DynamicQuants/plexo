@@ -1,0 +1,28 @@
+{
+  "name": "@plexo/themes",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "packages/themes/src",
+  "projectType": "library",
+  "tags": ["type:package", "scope:components"],
+  "targets": {
+    "build": {
+      "executor": "@nx/rollup:rollup",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "outputPath": "dist/packages/themes",
+        "tsConfig": "packages/themes/tsconfig.lib.json",
+        "project": "packages/themes/package.json",
+        "entryFile": "packages/themes/src/index.ts",
+        "external": ["react/jsx-runtime", "react-native", "react", "react-dom"],
+        "rollupConfig": "@nx/react/plugins/bundle-rollup",
+        "assets": [
+          {
+            "glob": "packages/themes/README.md",
+            "input": ".",
+            "output": "."
+          }
+        ]
+      }
+    }
+  }
+}

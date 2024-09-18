@@ -1,0 +1,20 @@
+{
+  // Editor settings.
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.rulers": [100],
+  "editor.tabSize": 2,
+  "editor.formatOnSave": true,
+
+  // Tailwind CSS.
+  "tailwindCSS.classAttributes": ["class", "className", "style"],
+  "tailwindCSS.experimental.classRegex": [
+    "tw`([^`]*)",
+    "tws`([^`]*)",
+    ["setStyle\\(([^)]*)\\)", "'([^']*)'"],
+    ["tw.style\\(([^)]*)\\)", "'([^']*)'"],
+    ["tw\\(([^)]*)\\)", "'([^']*)'"]
+  ],
+
+  // Code spell checker.
+  "cSpell.words": ["plexo"]
+}

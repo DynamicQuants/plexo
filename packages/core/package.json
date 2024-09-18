@@ -1,0 +1,11 @@
+{
+  "name": "@plexo/core",
+  "version": "0.0.1",
+  "description": "The core library of Plexo with essential utilities and foundational components for building reusable UI elements.",
+  "license": "MIT",
+  "main": "src/index.ts",
+  "peerDependencies": {
+    "react": "18.2.0",
+    "react-native": "0.74.1"
+  }
+}

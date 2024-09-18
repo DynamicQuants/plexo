@@ -1,0 +1,11 @@
+{
+  "name": "@plexo/themes",
+  "version": "0.0.1",
+  "description": "A collection of themes and design systems for Plexo, providing pre-defined styles for consistent visual design.",
+  "license": "MIT",
+  "main": "src/index.ts",
+  "peerDependencies": {
+    "react": "18.2.0",
+    "react-native": "0.74.1"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "name": "@plexo/components",
+  "version": "0.0.1",
+  "description": "A library of reusable UI components for Plexo, designed for both web (React/Next.js) and mobile (React Native/Expo) platforms.",
+  "license": "MIT",
+  "main": "src/index.ts",
+  "peerDependencies": {
+    "react": "18.2.0",
+    "react-native": "0.74.1"
+  }
+}
