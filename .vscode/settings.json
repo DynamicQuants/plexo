@@ -16,5 +16,15 @@
   ],
 
   // Code spell checker.
-  "cSpell.words": ["autodocs", "docgen", "nextjs", "plexo", "twrnc"]
+  "cSpell.words": [
+    "autodocs",
+    "devkit",
+    "docgen",
+    "nextjs",
+    "plexo",
+    "Pressable",
+    "tailwindcss",
+    "trivago",
+    "twrnc"
+  ]
 }
