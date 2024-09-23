@@ -9,6 +9,7 @@
     "react-native": "0.74.1"
   },
   "dependencies": {
+    "tailwindcss": "^3.4.12",
     "twrnc": "^4.5.1"
   }
 }
