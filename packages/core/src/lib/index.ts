@@ -5,9 +5,9 @@
  * license found in the LICENSE file in the root directory of this source tree.
  */
 
+export * from './helpers';
+export * from './types';
 export type { GetVariants } from './generics';
 export { useStyles, useTheme } from './hooks';
 export { ThemeProvider, ThemeProviderContext } from './theme';
-export * from './helpers';
-export type * from './types';
 export { DefaultThemeProvider } from './defaults';
