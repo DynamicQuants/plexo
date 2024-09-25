@@ -80,7 +80,7 @@ export interface ThemeProviderProps extends PropsWithChildren {
   /**
    * Theme tw config.
    */
-  twConfig?: ThemeTwConfig;
+  twConfig: ThemeTwConfig;
 
   /**
    * Theme Breakpoints.
